@@ -7,7 +7,7 @@ require (
 	github.com/TheCacophonyProject/go-api v1.3.0
 	github.com/TheCacophonyProject/go-config v1.9.1
 	github.com/TheCacophonyProject/go-utils v0.1.3
-	github.com/TheCacophonyProject/modemd v1.11.0-tc2
+	github.com/TheCacophonyProject/modemd v1.18.0
 	github.com/alexflint/go-arg v1.4.2
 	github.com/godbus/dbus v4.1.0+incompatible
 	github.com/google/go-cmp v0.5.8
