@@ -15,6 +15,8 @@ func TestParseDateTimeFromFilename(t *testing.T) {
 	}{
 		{"dashed layout", "/var/spool/cptv/2023-05-04--21-03-09.cptv", time.Date(2023, 5, 4, 21, 3, 9, 0, time.Local)},
 		{"dashed layout with suffix", "2023-05-04--21-03-09-track.cptv", time.Date(2023, 5, 4, 21, 3, 9, 0, time.Local)},
+		{"aac audio", "/var/spool/cptv/2023-05-04--21-03-09.aac", time.Date(2023, 5, 4, 21, 3, 9, 0, time.Local)},
+		{"wav audio", "2023-05-04--21-03-09.wav", time.Date(2023, 5, 4, 21, 3, 9, 0, time.Local)},
 		{"compact layout", "20230504-210309.cptv", time.Date(2023, 5, 4, 21, 3, 9, 0, time.Local)},
 		{"compact layout with microseconds", "20230504-210309.123456.cptv", time.Date(2023, 5, 4, 21, 3, 9, 123456000, time.Local)},
 	}
